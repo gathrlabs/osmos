@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/{any?}', function () {
-    return view('app');
+/**
+ * Map routes
+ */
+Route::group(['prefix' => 'places'], function () {
+    Route::post('autocomplete', 'PlacesController@show');
 });
+
+Route::get('/{any}', function () {
+    return view('app');
+})->where('any', '.*')
+->middleware('cors');

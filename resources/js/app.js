@@ -2,8 +2,11 @@ require('./bootstrap');
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import routes from './routes';
+import VueSidebarMenu from 'vue-sidebar-menu'
 
 Vue.use(VueRouter);
+
+Vue.use(VueSidebarMenu);
 
 /**
  * The following block of code may be used to automatically register your

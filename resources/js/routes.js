@@ -3,6 +3,8 @@ import Settings from './views/Settings'
 import Planner from './views/Planner'
 import Chat from './views/Chat'
 import Dashboard from './views/Dashboard'
+import CreateSession from './views/Session/CreateSession'
+import CreateSessionFirst from './views/Session/CreateSessionFirst'
 import NotFound from './views/404'
 
 export default {
@@ -31,6 +33,14 @@ export default {
         {
             path: '/settings',
             component: Settings
+        },
+        {
+            path: '/create-session',
+            component: CreateSession
+        },
+        {
+            path: '/create-session/step-one',
+            component: CreateSessionFirst
         },
     ]
 };
