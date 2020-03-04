@@ -1,21 +1,26 @@
 <template>
     <div>
-        <div class="text-2xl text-black-500">Dashboard</div>
-        <section class="flex w-full my-8">
-            <div class="bg-blue-100 h-32 w-full text-grey-dark rounded-lg p-6">
-                <div class="text-blue-300 text-xl font-bold mb-4">Welcome back Tom</div>
-                <div class="text-lg">As this is your first visit, would you like a quick tour?</div>
+        <div>
+            
+        </div>
+        <section>
+            <div class="bg-white p-4 border-indigo-200 border shadow rounded">
+                <div class="text-gray-700 font-medium">Title of Card</div>
+                <div class="text-gray-600">Body of the card</div>
             </div>
         </section>
-        <section>
-            <card title="Latest Courses">
-                <template v-slot:body class="w-full flex">
-                    <div class="w-full inline-flex items-center border-b border-gray-100 py-4">
-                        <div class="font-bold py-2">Guide To International Politics</div>
-                        <div class="py-2">Dave Hill</div>
-                    </div>
-                </template>
-            </card>
+        <section class="mt-8">
+            <div class="inline-flex items-center justify-between">
+                <div class="font-medium text-xl text-gray-700">
+                    Your Courses
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div>
+                <div></div>
+            </div>
         </section>
     </div>
 </template>

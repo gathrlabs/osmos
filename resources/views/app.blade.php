@@ -7,8 +7,8 @@
         <title>osmos - Discover unique educational experiences</title>
         <link href="/css/app.css" rel="stylesheet">
     </head>
-    <body>
-        <div id="app">
+    <body style="background-color: rgb(255, 253, 250)">
+        <div class="font-sans text-lg" id="app">
             <navigation></navigation>
             <main>
                 <div class="mx-auto py-6 sm:px-6 lg:px-8">
