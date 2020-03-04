@@ -4,7 +4,7 @@
         <div class="flex items-center justify-between h-16">
             <div class="flex items-center">
             <div class="flex-shrink-0 items-center inline-flex">
-                <img class="h-12 w-12" src="/img/logo.svg" alt="" /> <div class="ml-2 text-3xl leading-none">osmos</div>
+                <img class="h-12 w-12" src="/img/logo.svg" alt="" /> <div class="ml-2 text-3xl text-gray-700 leading-none">osmos</div>
             </div>
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline">
@@ -48,7 +48,7 @@
             </div>
         </div>
         </div>
-        <div @click="open = false" :class="{'block': open, 'hidden': !open}" class="md:hidden bg-gray-200 shadow-lg">
+        <div @click="open = false" :class="{'block': open, 'hidden': !open}" class="md:hidden bg-gray-100 shadow">
             <div class="px-2 pt-2 pb-3 sm:px-3">
                 <router-link to="/" class="block px-3 py-2 rounded text-base text-gray-600 hover:text-white hover:bg-gray-500 focus:outline-none focus:text-white focus:bg-gray-500">Dashboard</router-link>
                 <router-link to="/courses" class="block px-3 py-2 rounded text-base text-gray-600 hover:text-white hover:bg-gray-500 focus:outline-none focus:text-white focus:bg-gray-500">Courses</router-link>

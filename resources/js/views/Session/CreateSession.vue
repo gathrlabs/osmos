@@ -15,8 +15,7 @@
         <section class="pt-6">
             <div class="font-bold text-2xl mb-6 text-gray-900">Here's a few pointers on how to make a great and engaging session</div>
             <div class="w-full flex-wrap flex">
-                <img class="rounded-lg shadow-lg w-full xl:w-1/2 h-full" src="/img/CreateSessionAssetOne.png" alt="">
-                <div class="px-6 w-full mt-6 xl:mt-0 xl:w-1/2">
+                <div class="w-full mt-6 xl:mt-0">
                     <div class="pb-4">
                         Decide what the general focus of your session will be. For example: Introductory Game Design, Woodworking, Puppetry and Story etc.
                     </div>
@@ -29,7 +28,7 @@
                     <div class="py-4">
                         Decide on what the average appropriate age would be for the session.
                     </div>
-                    <os-button class="transition-shadow mt-6 bg-gray-900 text-white shadow-lg hover:shadow" @click="nextPage()">
+                    <os-button class="transition-shadow mt-6 px-6 py-4 bg-gray-900 text-white shadow-lg hover:shadow w-full md:w-auto" @click="nextPage()">
                         Get Started
                     </os-button>
                 </div>
