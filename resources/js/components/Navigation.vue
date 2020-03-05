@@ -4,7 +4,7 @@
         <div class="flex items-center justify-between h-16">
             <div class="flex items-center">
             <div class="flex-shrink-0 items-center inline-flex">
-                <img class="h-12 w-12" src="/img/logo.svg" alt="" /> <div class="ml-2 text-3xl text-gray-700 leading-none">osmos</div>
+                <img class="h-12 w-12" src="/img/logo.svg" alt="" /> <div class="ml-2 text-3xl text-gray-700 leading-none pb-1">osmos</div>
             </div>
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline">
