@@ -1,8 +1,5 @@
 <template>
     <div>
-        <div>
-            
-        </div>
         <section>
             <div class="bg-white p-4 bg-white border border-gray-400 shadow rounded inline-flex w-full">
                 <div class="pr-4">
@@ -59,9 +56,9 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" stroke="#434190">
+        <section class="w-full">
+            <div class="mx-auto py-4">
+                <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" stroke="#434190">
                     <g fill="none" fill-rule="evenodd">
                         <g transform="translate(1 1)" stroke-width="2">
                             <circle stroke-opacity=".5" cx="18" cy="18" r="18"/>

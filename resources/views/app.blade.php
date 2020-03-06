@@ -6,6 +6,9 @@
 
         <title>osmos - Discover unique educational experiences</title>
         <link href="/css/app.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
+
     </head>
     <body style="background-color: rgb(255, 253, 250)">
         <div class="font-sans text-lg" id="app">

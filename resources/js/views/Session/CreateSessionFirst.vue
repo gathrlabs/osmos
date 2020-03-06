@@ -23,7 +23,7 @@
                             </li>
                         </ul>
                     </div>
-                    <os-button :disabled="true" class="transition-shadow mt-6 bg-gray-900 text-white shadow-lg hover:shadow" @click="nextPage()">
+                    <os-button :disabled="true" class="transition-shadow w-full mt-6 px-6 md:w-auto mt-6 bg-gray-900 text-white shadow-lg hover:shadow" @click="nextPage()">
                         Next Step
                     </os-button>
                 </div>

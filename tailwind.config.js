@@ -1,7 +1,7 @@
 module.exports = {
   theme: {
     fontFamily: {
-        'sans': ['GT Walsheim'],
+        'sans': ['IBM Plex Sans'],
         'serif': ['GFS Didot'],
         'mono': 'Michroma',
     },
